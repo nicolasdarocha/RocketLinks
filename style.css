@@ -16,27 +16,27 @@ body {
 .container {
     text-align: center;
     width: 300px;
-    margin: 60px auto;
+    margin: 110px auto 60px auto;
 }
 
 img.avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     padding: 3.7px;
     border: #4263eb solid 4px;
 }
 
 h1 {
     font-size: 32px;
-    color: #00082F;
+    color: white;
     margin-top: 24px;
     margin-bottom: 8px;
 }
 
 .username {
     font-family: 'Roboto Mono', monospace;
-    color: #00082F;
+    color: white;
     opacity: 0.8;
     font-size: 18px;
 }
@@ -46,13 +46,14 @@ h1 {
     margin: 48px 0;
 }
 
-
 .link {
     height: 53px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #4263eb;
+    
+    color: whitesmoke;
     font-size: 14px;
 
     margin-bottom: 16px;
@@ -68,7 +69,7 @@ h1 {
 footer {
     font-weight: 500;
     font-size: 12px;
-    color: #00082F;
+    color: white;
     opacity: 0.6;
     transition: opacity 400ms;
 }
@@ -78,5 +79,5 @@ footer:hover{
 }
 
 footer a {
-    color: #00082F;
+    color: white;
 }
