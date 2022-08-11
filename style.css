@@ -9,7 +9,7 @@ a {
 }
 
 body {
-    background-color: #00082F;/* tema claro: #edf2ff*/
+    background-color: #edf2ff;/* tema claro: #edf2ff ; tema escuro:#00082F*/
     font-family: 'Roboto', sans-serif;
 }
 
@@ -24,7 +24,7 @@ img.avatar {
     width: 150px;
     height: 150px;
     padding: 3.7px;
-    border: #4263eb solid 4px;
+    border: #660800 solid 4px; /*#4263eb*/
 }
 
 h1 {
@@ -51,7 +51,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4263eb;
+    background-color: #660800; /*original:#4263eb*/
     
     color: whitesmoke;
     font-size: 14px;
